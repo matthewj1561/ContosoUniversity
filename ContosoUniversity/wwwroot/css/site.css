@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+.navbar {
+  background-color:lightcoral;
+}
+body {
+  margin-bottom: 60px;
+}
+main {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.footer {
+    background-color: lightcoral;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.contact {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
